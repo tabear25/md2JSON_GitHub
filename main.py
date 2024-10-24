@@ -53,8 +53,8 @@ def main(repo_url, clone_dir, json_file):
 
 if __name__ == "__main__":
     # ここで設定
-    repo_url = 'https://github.com/langgenius/dify-docs.git'
-    clone_dir = './cloned_dify'  
-    json_file = 'dify_docs.json'  
+    repo_url = 'REPO_URL'
+    clone_dir = 'CLONE_REPO_DIR'  
+    json_file = 'YOUR_JSON_FILE_NAME'  
 
     main(repo_url, clone_dir, json_file)
